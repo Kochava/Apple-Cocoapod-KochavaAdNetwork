@@ -1,0 +1,6 @@
+framework module Apple_Cocoapod_KochavaAdNetwork {
+  umbrella header "Apple-Cocoapod-KochavaAdNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

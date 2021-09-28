@@ -1,5 +1,6 @@
 import XCTest
-import Apple-Cocoapod-KochavaAdNetwork
+// import Apple-Cocoapod-KochavaAdNetwork
+import KochavaAdNetwork
 
 class Tests: XCTestCase {
     
