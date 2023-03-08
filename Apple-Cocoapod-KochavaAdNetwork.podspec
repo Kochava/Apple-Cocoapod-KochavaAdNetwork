@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaAdNetwork'
-    s.version          = '5.1.1'
+    s.version          = '6.0.0'
     s.summary          = 'The KochavaAdNetwork module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.3'
     s.osx.deployment_target = '10.14'
     s.tvos.deployment_target = '10.2'
-    s.watchos.deployment_target = '3.2'
+    s.watchos.deployment_target = '7.0'
 
 #   s.source_files = 'Apple-Cocoapod-KochavaAdNetwork/Classes/**/*'
 
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
     s.osx.frameworks   = 'Foundation'
     s.tvos.frameworks   = 'Foundation'
     s.watchos.frameworks   = 'Foundation'
-    s.dependency 'Apple-Cocoapod-KochavaTracker', '~> 5.1.1'
+    s.dependency 'Apple-Cocoapod-KochavaTracker', '~> 6.0.0'
 
     # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaAdNetwork/Frameworks/KochavaAdNetwork.xcframework'

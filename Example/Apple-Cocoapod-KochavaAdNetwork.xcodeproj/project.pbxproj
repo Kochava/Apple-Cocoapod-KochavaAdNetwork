@@ -291,9 +291,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Apple-Cocoapod-KochavaAdNetwork_Example/Pods-Apple-Cocoapod-KochavaAdNetwork_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaAdNetwork/KochavaAdNetwork.framework/KochavaAdNetwork",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaCore/KochavaCore.framework/KochavaCore",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KochavaTracker/KochavaTracker.framework/KochavaTracker",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaAdNetwork/KochavaAdNetwork.framework/KochavaAdNetwork",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaCore/KochavaCore.framework/KochavaCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaTracker/KochavaTracker.framework/KochavaTracker",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
