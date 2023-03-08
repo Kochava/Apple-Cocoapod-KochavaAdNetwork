@@ -17,8 +17,14 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
+  "KochavaAdNetwork.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "simulator"
+    ;;
   "KochavaAdNetwork.xcframework/watchos-arm64_32_armv7k")
     echo ""
+    ;;
+  "KochavaAdNetwork.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "maccatalyst"
     ;;
   "KochavaAdNetwork.xcframework/ios-arm64_armv7")
     echo ""
@@ -26,20 +32,14 @@ variant_for_slice()
   "KochavaAdNetwork.xcframework/macos-arm64_x86_64")
     echo ""
     ;;
-  "KochavaAdNetwork.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "maccatalyst"
-    ;;
-  "KochavaAdNetwork.xcframework/tvos-arm64")
-    echo ""
-    ;;
   "KochavaAdNetwork.xcframework/ios-arm64_i386_x86_64-simulator")
-    echo "simulator"
-    ;;
-  "KochavaAdNetwork.xcframework/watchos-arm64_i386_x86_64-simulator")
     echo "simulator"
     ;;
   "KochavaAdNetwork.xcframework/tvos-arm64_x86_64-simulator")
     echo "simulator"
+    ;;
+  "KochavaAdNetwork.xcframework/tvos-arm64")
+    echo ""
     ;;
   esac
 }
@@ -47,8 +47,14 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
+  "KochavaAdNetwork.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "arm64 i386 x86_64"
+    ;;
   "KochavaAdNetwork.xcframework/watchos-arm64_32_armv7k")
     echo "arm64_32 armv7k"
+    ;;
+  "KochavaAdNetwork.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "arm64 x86_64"
     ;;
   "KochavaAdNetwork.xcframework/ios-arm64_armv7")
     echo "arm64 armv7"
@@ -56,20 +62,14 @@ archs_for_slice()
   "KochavaAdNetwork.xcframework/macos-arm64_x86_64")
     echo "arm64 x86_64"
     ;;
-  "KochavaAdNetwork.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "arm64 x86_64"
-    ;;
-  "KochavaAdNetwork.xcframework/tvos-arm64")
-    echo "arm64"
-    ;;
   "KochavaAdNetwork.xcframework/ios-arm64_i386_x86_64-simulator")
-    echo "arm64 i386 x86_64"
-    ;;
-  "KochavaAdNetwork.xcframework/watchos-arm64_i386_x86_64-simulator")
     echo "arm64 i386 x86_64"
     ;;
   "KochavaAdNetwork.xcframework/tvos-arm64_x86_64-simulator")
     echo "arm64 x86_64"
+    ;;
+  "KochavaAdNetwork.xcframework/tvos-arm64")
+    echo "arm64"
     ;;
   esac
 }
@@ -153,5 +153,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaAdNetwork/Frameworks/KochavaAdNetwork.xcframework" "Apple-Cocoapod-KochavaAdNetwork" "framework" "ios-arm64_armv7" "ios-arm64_x86_64-maccatalyst" "ios-arm64_i386_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaAdNetwork/Frameworks/KochavaAdNetwork.xcframework" "Apple-Cocoapod-KochavaAdNetwork" "framework" "ios-arm64_x86_64-maccatalyst" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator"
 
