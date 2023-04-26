@@ -13,7 +13,7 @@ The contents of optional module KochavaAdNetwork were merged into primary module
 
 ## Overview
 
-The KochavaAdNetwork module is an optional module within the Kochava SDK providing advertising network support, and is a high-level interface to Apple's SKAdNetwork.
+The KochavaAdNetwork cocoapod is an optional module within the Kochava SDK providing advertising network support, and is a high-level interface to Apple's SKAdNetwork.
 
 The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
 
