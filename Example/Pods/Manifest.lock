@@ -1,9 +1,9 @@
 PODS:
-  - Apple-Cocoapod-KochavaAdNetwork (7.3.0):
-    - Apple-Cocoapod-KochavaTracker (~> 7.3.0)
-  - Apple-Cocoapod-KochavaCore (7.3.0)
-  - Apple-Cocoapod-KochavaTracker (7.3.0):
-    - Apple-Cocoapod-KochavaCore (~> 7.3.0)
+  - Apple-Cocoapod-KochavaAdNetwork (7.4.0):
+    - Apple-Cocoapod-KochavaTracker (~> 7.4.0)
+  - Apple-Cocoapod-KochavaCore (7.4.0)
+  - Apple-Cocoapod-KochavaTracker (7.4.0):
+    - Apple-Cocoapod-KochavaCore (~> 7.4.0)
 
 DEPENDENCIES:
   - Apple-Cocoapod-KochavaAdNetwork (from `../`)
@@ -18,9 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Apple-Cocoapod-KochavaAdNetwork: 6d87ffa8046946f3bf4c312ec932d60ed7f65096
-  Apple-Cocoapod-KochavaCore: cd2949b7ff4fc514234eea0b146a96aa89e8f4e0
-  Apple-Cocoapod-KochavaTracker: 963aa98352dabe49d2c56b15c025c0cba4073a19
+  Apple-Cocoapod-KochavaAdNetwork: 92de631e62e9da65213e712954d7c6631fb3b637
+  Apple-Cocoapod-KochavaCore: 85f81d244249ab31d077e8e1657ac30ca2e20cc4
+  Apple-Cocoapod-KochavaTracker: b829f16d3cc22b1961e09f03bf19bf3b5953a231
 
 PODFILE CHECKSUM: d3f9cbc9b5f741d45ca9028d623401ce5651190f
 
